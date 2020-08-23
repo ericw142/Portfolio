@@ -1,5 +1,5 @@
 body {
-    background-image: url("https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80");
+    background-image: url("https://images.unsplash.com/photo-1490630327850-eefa0d9de035?ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -32,8 +32,14 @@ body {
     border-radius: 15px;
 }
 
+.card {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
 ul {
     list-style-type: disc;
+    padding-bottom: 70px;
 }
 
 li {

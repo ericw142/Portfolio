@@ -1,3 +1,11 @@
+.ubuntuFont {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.juliusFont {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
 body {
     background-image: url("https://images.unsplash.com/photo-1490630327850-eefa0d9de035?ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80");
     background-repeat: no-repeat;

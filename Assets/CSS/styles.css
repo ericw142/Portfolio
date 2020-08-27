@@ -1,9 +1,19 @@
+/* Custom Fonts */
 .ubuntuFont {
     font-family: 'Ubuntu', sans-serif;
 }
 
 .juliusFont {
     font-family: 'Julius Sans One', sans-serif;
+}
+
+/* Quick Style Classes */
+.underline {
+    text-decoration: underline;
+}
+
+.marginleft {
+    margin-left: 10px;
 }
 
 body {
@@ -18,26 +28,11 @@ body {
     color: white;
 }
 
+
 .content {
     background-color: #e9ecefd3;
     padding-bottom: 70px;
     margin-top: 20px;
-}
-
-.underline {
-    text-decoration: underline;
-}
-
-.marginleft {
-    margin-left: 10px;
-}
-
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #343a40;
 }
 
 .col-md-10 {
@@ -51,6 +46,15 @@ body {
     margin-bottom: 10px;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+}
+
+/* Right Side Social Media Links */
 ul {
     list-style-type: disc;
     padding-bottom: 70px;
@@ -65,6 +69,7 @@ li {
     color: white;
 }
 
+/* Contact Page Styles */
 #contactForm {
     margin-top: 20px;
     background-color: #e9ecefd3;

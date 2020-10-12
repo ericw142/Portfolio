@@ -26,8 +26,18 @@ body {
 .jumbotron { 
     background: #3f8141ec;
     color: white;
+    margin-bottom: 0;
 }
 
+#main {
+    background-color: #e9ecef;
+    padding-top: 30px;
+}
+
+.btnList {
+    list-style: none;
+    text-align: center;
+}
 
 .content {
     background-color: #e9ecefd3;

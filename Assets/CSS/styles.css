@@ -75,6 +75,10 @@ embed {
     background-color: #343a40;
 }
 
+.footerLink {
+    margin-left: 20px;
+}
+
 /* Right Side Social Media Links */
 ul {
     list-style-type: disc;

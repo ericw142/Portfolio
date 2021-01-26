@@ -1,7 +1,7 @@
 const express = require("express");
 const router = require("./routes/router");
 const path = require("path");
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3000;
 
 const app = express();
 // Middleware
@@ -11,7 +11,7 @@ if (process.env.NODE_ENV === "production") {
   app.use(express.static("client/build"));
 }
 // Router
-app.use(router);
+app.use("/api", router);
 
 // Initializing App
 app.get("*", function(req, res) {

@@ -2,7 +2,7 @@ import axios from "axios";
 
 const API = {
     send : function(data) {
-        return axios.post("/send", data);
+        return axios.post("/api/send", data);
     }
 }
 

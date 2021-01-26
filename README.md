@@ -2,6 +2,7 @@
 
 ## Description
 My portfolio website includes a homepage, portfolio, an about me page, and a contact form. Please feel free to use the contact form to reach out to me!
+Heroku deployment is at : https://portfolio-ericw142.herokuapp.com/
 
 ## Table of Contents 
 
@@ -50,4 +51,4 @@ This is free and unencumbered software released into the public domain.
 Link to Repository: https://github.com/ericw142/Portfolio
 
 
-![Home Page](/Assets/Images/Finished_Homepage.png?raw=true "Home Page")
+![Home Page](client\src\assets\homepage.png?raw=true "Home Page")

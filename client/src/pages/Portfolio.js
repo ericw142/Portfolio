@@ -62,11 +62,11 @@ function Portfolio() {
                 <div className="row">
                 <div className="col-md-6 d-flex justify-content-center">
                     <div className="card" >
-                    <img className="card-img-top" src="https://github.com/ericw142/CodeQuiz/raw/master/Assets/images/homepage.png?raw=true" alt="codequiz"></img>
+                    <img className="card-img-top" src="https://github.com/Terd47/smart-events-app/raw/master/Assets/images/screenshot.png?raw=true" alt="SmartEvents"></img>
                     <div className="card-body">
-                        <h5 className="card-title">Code Quiz</h5>
-                        <p className="card-text ubuntuFont">A quiz application that times the user and records their highscores locally.</p>
-                        <a href="https://github.com/ericw142/CodeQuiz">To GitHub Repository</a>
+                        <h5 className="card-title">SmartEvents</h5>
+                        <p className="card-text ubuntuFont">An all in one planner site that includes weather, news, sports events and holidays.</p>
+                        <a href="https://github.com/Terd47/smart-events-app">To GitHub Repository</a>
                     </div>
                     </div>
                 </div>

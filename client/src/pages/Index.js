@@ -61,11 +61,11 @@ function Index() {
                     <div className="row">
                     <div className="col-md-6 d-flex justify-content-center">
                         <div className="card">
-                        <img className="card-img-top" src="https://github.com/Terd47/smart-events-app/raw/master/Assets/images/screenshot.png?raw=true" alt="SmartEvents"></img>
+                        <img className="card-img-top" src="https://github.com/ericw142/employee_directory/raw/main/assets/homepage.png?raw=true" alt="EmployeeDirectory"></img>
                         <div className="card-body">
-                            <h5 className="card-title">SmartEvents</h5>
-                            <p className="card-text ubuntuFont">An all in one planner site that includes weather, news, sports events and holidays.</p>
-                            <a href="https://github.com/Terd47/smart-events-app">To GitHub Repository</a>
+                            <h5 className="card-title">Employee Directory</h5>
+                            <p className="card-text ubuntuFont">A React application that pulls from the randomuser.me API and displays a table of employees. Includes search functionality.</p>
+                            <a href="https://github.com/ericw142/employee_directory">To GitHub Repository</a>
                         </div>
                         </div>
                     </div>

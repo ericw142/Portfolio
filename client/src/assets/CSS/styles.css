@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
 /* Custom Fonts */
 .ubuntuFont {
     font-family: 'Ubuntu', sans-serif;
@@ -60,7 +62,7 @@ body {
     margin-bottom: 10px;
 }
 
-embed {
+.pdf {
     display: block;
     padding-top: 20px;
     margin-left: auto;

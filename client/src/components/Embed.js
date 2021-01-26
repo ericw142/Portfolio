@@ -13,7 +13,7 @@ const Embed = () => {
         }
       
         return (
-          <div>
+          <div className="pdf">
             <Document
               file={file}
               onLoadSuccess={onDocumentLoadSuccess}

@@ -1,26 +1,11 @@
-const path = require("path");
+const express = require("express");
+const router = express.Router();
 const nodemailer = require("nodemailer");
 
-module.exports = function(app) {
-    app.get("/", (req, res) => {
-        res.sendFile(path.join(__dirname, "../public/index.html"));
-    })
-
-    app.get("/portfolio", (req, res) => {
-        res.sendFile(path.join(__dirname, "../public/portfolio.html"));
-    })
-
-    app.get("/about", (req, res) => {
-        res.sendFile(path.join(__dirname, "../public/about.html"));
-    })
-
-    app.get("/contact", (req, res) => {
-        res.sendFile(path.join(__dirname, "../public/contact.html"));
-    })
 
     // Contact Form
-    app.post("/sendcontactform", (req, res) => {
-        console.log(req.body);
+    router.post("/send", (req, res) => {
+      console.log("hit router");
         async function sendMail() {
             let transporter = nodemailer.createTransport({
                 service: "gmail",
@@ -38,6 +23,7 @@ module.exports = function(app) {
               });
         }
         sendMail().catch(console.error);
-        res.sendFile(path.join(__dirname, "../public/index.html"));
+        console.log("success");
     })
-}
+
+module.exports = router;

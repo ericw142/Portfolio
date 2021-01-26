@@ -1,18 +1,23 @@
 const express = require("express");
-const PORT = process.env.PORT || 8080;
+const router = require("./routes/router");
+const path = require("path");
+const PORT = process.env.PORT || 3001;
 
 const app = express();
 // Middleware
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static("public"));
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static("client/build"));
+}
 // Router
-require("./routes/router")(app);
+app.use(router);
+
 // Initializing App
-app.listen(PORT, () => {
-    console.log(
-      "==> 🌎  Listening on port %s. Visit http://localhost:%s/ in your browser.",
-      PORT,
-      PORT
-    );
+app.get("*", function(req, res) {
+  res.sendFile(path.join(__dirname, "./client/build/index.html"));
+});
+  
+app.listen(PORT, function() {
+  console.log(`🌎 ==> API server now on port ${PORT}!`);
 });

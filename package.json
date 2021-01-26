@@ -1,24 +1,32 @@
 {
   "name": "portfolio",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A portfolio website including a homepage, portfolio, an about me page, and a contact form. The website is responsive for all screen sizes. Created using Bootstrap.",
   "main": "server.js",
   "scripts": {
     "test": "npm run test",
-    "start": "node server.js"
+    "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
+    "start:prod": "node server.js",
+    "start:dev": "concurrently \"nodemon --ignore 'client/*'\" \"npm run client\"",
+    "client": "cd client && npm run start",
+    "install": "cd client && npm install",
+    "build": "cd client && npm run build",
+    "heroku-postbuild": "npm run build"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ericw142/Portfolio.git"
   },
-  "author": "",
+  "author": "Eric Warshawsky",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ericw142/Portfolio/issues"
   },
   "homepage": "https://github.com/ericw142/Portfolio#readme",
   "dependencies": {
+    "concurrently": "^5.3.0",
     "express": "^4.17.1",
+    "if-env": "^1.0.4",
     "nodemailer": "^6.4.16",
     "path": "^0.12.7"
   }

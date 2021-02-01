@@ -12,13 +12,19 @@ function About() {
                 <div className="col-md-12">
                 <h2 className="juliusFont">Resume</h2>
                 </div>
+                
             </div>
             {/* Resume */}
             <div>
-            <Embed />
+            <div className="row">
+                <div className="col-md-12" id="resumeDiv">
+                    <center>
+                        <Embed />
+                    </center>
+                </div>
+            </div>
 
-                <div className="row margintop">
-
+             <div className="row margintop">
                 <div className="col-md-12">
                     <ul className="btnList">
                     <li><a className="btn" href="/" role="button">Back to Homepage</a></li>
@@ -26,9 +32,9 @@ function About() {
                 </div>
 
                 </div>
-                </div>
             </div>
-            <Footer />
+        </div>
+        <Footer />
         </div>
     )
 }

@@ -62,13 +62,6 @@ body {
     margin-bottom: 10px;
 }
 
-.pdf {
-    display: block;
-    padding-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .footer {
     position: fixed;
     left: 0;

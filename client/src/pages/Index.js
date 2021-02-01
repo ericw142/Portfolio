@@ -6,7 +6,7 @@ function Index() {
     return(
         <div>
             <Navbar />
-            <div className="container" id="main">
+            <div className="container content" id="main">
 
                {/* Jumbotron */}
                 <div className="jumbotron jumbotron-fluid juliusFont">
@@ -39,7 +39,7 @@ function Index() {
                         <div className="card">
                         <div className="card-body">
                             <h5 className="card-title">Skills</h5>
-                            <p className="card-text">Proficient in HTML, CSS, JS, Node.js, Express, Handlebars, MySQL, MongoDB.</p>
+                            <p className="card-text">Proficient in HTML, CSS, JS, Node.js, Express, Handlebars, MySQL, MongoDB, React.</p>
                         </div>
                         </div>
 

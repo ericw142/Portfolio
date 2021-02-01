@@ -16,12 +16,12 @@ function Portfolio() {
                 <div className="row">
                 <div className="col-md-6 d-flex justify-content-center">
                     <div className="card" >
-                    <img className="card-img-top" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="stockimgcoding"></img>
-                        <div className="card-body">
-                        <h5 className="card-title">Employee Tracker</h5>
-                        <p className="card-text ubuntuFont">A command line application that allows you to interact with an Employee database quickly and conveniently.</p>
-                        <a href="https://github.com/ericw142/EmployeeTracker">To GitHub Repository</a>
-                        </div>
+                    <img className="card-img-top" src="https://github.com/Terd47/smart-events-app/raw/master/Assets/images/screenshot.png?raw=true" alt="SmartEvents"></img>
+                    <div className="card-body">
+                        <h5 className="card-title">SmartEvents</h5>
+                        <p className="card-text ubuntuFont">An all in one planner site that includes weather, news, sports events and holidays.</p>
+                        <a href="https://github.com/Terd47/smart-events-app">To GitHub Repository</a>
+                    </div>
                     </div>
                 </div>
                 <div className="col-md-6 d-flex justify-content-center">
@@ -62,12 +62,12 @@ function Portfolio() {
                 <div className="row">
                 <div className="col-md-6 d-flex justify-content-center">
                     <div className="card" >
-                    <img className="card-img-top" src="https://github.com/Terd47/smart-events-app/raw/master/Assets/images/screenshot.png?raw=true" alt="SmartEvents"></img>
-                    <div className="card-body">
-                        <h5 className="card-title">SmartEvents</h5>
-                        <p className="card-text ubuntuFont">An all in one planner site that includes weather, news, sports events and holidays.</p>
-                        <a href="https://github.com/Terd47/smart-events-app">To GitHub Repository</a>
-                    </div>
+                    <img className="card-img-top" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="stockimgcoding"></img>
+                        <div className="card-body">
+                        <h5 className="card-title">Employee Tracker</h5>
+                        <p className="card-text ubuntuFont">A command line application that allows you to interact with an Employee database quickly and conveniently.</p>
+                        <a href="https://github.com/ericw142/EmployeeTracker">To GitHub Repository</a>
+                        </div>
                     </div>
                 </div>
                 <div className="col-md-6 d-flex justify-content-center">

@@ -51,4 +51,4 @@ This is free and unencumbered software released into the public domain.
 Link to Repository: https://github.com/ericw142/Portfolio
 
 
-![Home Page](images\homepage.png?raw=true "Home Page")
+![Home Page](client\src\assets\portfolio.png.png?raw=true "Home Page")

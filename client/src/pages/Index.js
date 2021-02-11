@@ -71,11 +71,11 @@ function Index() {
                     </div>
                     <div className="col-md-6 d-flex justify-content-center">
                         <div className="card">
-                        <img src="https://user-images.githubusercontent.com/68489432/101245890-f4f06680-36dd-11eb-8678-6bdb634b54eb.png" alt="Procourse" className="card-img-top"></img>
+                        <img src="https://user-images.githubusercontent.com/49447293/107465909-3879ad80-6b31-11eb-91ce-34a50e0bca99.png" alt="ArtSketcher" className="card-img-top"></img>
                         <div className="card-body">
-                            <h5 className="card-title">Procourse</h5>
-                            <p className="card-text ubuntuFont">A website for developers to connect and collaborate on open source projects, and view and manage their projects.</p>
-                            <a href="https://github.com/ericw142/procourse">To GitHub Repository</a>
+                            <h5 className="card-title">ArtSketcher</h5>
+                            <p className="card-text ubuntuFont">A website for creative people to draw sketches, and view other user's artwork.</p>
+                            <a href="https://github.com/ericw142/ArtSketcher">To GitHub Repository</a>
                         </div>
                         </div>
                     </div>

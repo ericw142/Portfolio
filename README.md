@@ -1,5 +1,7 @@
 # Portfolio
 
+![Home Page](https://user-images.githubusercontent.com/66480663/107687484-84813b00-6c74-11eb-8e33-7b56d3d29e14.png "Home Page")
+
 ## Description
 My portfolio website includes a homepage, portfolio, an about me page, and a contact form. Please feel free to use the contact form to reach out to me!
 Heroku deployment is at : https://portfolio-ericw142.herokuapp.com/
@@ -51,4 +53,3 @@ This is free and unencumbered software released into the public domain.
 Link to Repository: https://github.com/ericw142/Portfolio
 
 
-![Home Page](client\src\assets\portfolio.png.png?raw=true "Home Page")

@@ -1,6 +1,7 @@
 const express = require("express");
 const router = require("./routes/router");
 const path = require("path");
+const mongoose = require("mongoose")
 const PORT = process.env.PORT || 3001;
 
 const app = express();
@@ -12,6 +13,14 @@ if (process.env.NODE_ENV === "production") {
 }
 // Router
 app.use("/api", router);
+
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/portfolio",
+ { 
+    useUnifiedTopology: true, 
+    useNewUrlParser: true, 
+    useCreateIndex: true, 
+    useFindAndModify: false 
+  });
 
 // Initializing App
 app.get("*", function(req, res) {
